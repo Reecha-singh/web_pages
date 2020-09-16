@@ -1,0 +1,50 @@
+.row-header{
+    margin:0px auto;
+    padding: 0px auto;
+}
+
+.jumbotron{
+    padding:70px 30px 70px 30px;
+    padding:0 auto;
+    background-color: #9575cd;
+    color:floralwhite;
+}
+
+.footer{
+    background-color:#d1c4e9;
+    margin:0px auto;
+    padding:20px 0px 20px 0px;
+}
+.row-content{
+    margin:0px auto;
+    padding:50px 0px 50px 0px;
+    border-bottom: 1px #9c9c9c ridge;
+    min-height:400px;
+}
+.address{
+    font-size: 80%;
+    margin: 0px;
+    color:#0f0f0f;
+}
+body,html{
+    color:#000000;
+    z-index:0;
+}
+.navbar-dark{
+    background-color: #512DA8;
+}
+.carousel {
+    background:#512DA8;
+}
+
+.carousel-item {
+  height: 300px;
+}
+
+.carousel-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 300px;
+}
+

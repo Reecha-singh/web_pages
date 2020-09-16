@@ -1,0 +1,129 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width:100%;
+    height:100%;
+    background-color: rgb(253, 235, 185);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sheet{
+    width:80%;
+    height:75%;
+    background-color: rgb(90, 47, 47);
+    border:5px solid #fff;
+    border-radius:10px;
+    background-image:url(one3.jpg) ;
+    background-position:center;
+    background-size: cover;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.548);
+}
+#nav{
+
+   display: flex;
+   justify-content: space-between;
+   /*background-color: rgb(163, 35, 35); */
+}
+#nav img{
+    margin-top: 15px;
+    margin-left: 10px;
+    width:100px;
+    height:60px;
+}
+#logo{
+    margin-top: 40px;
+    margin-left:40px;
+}
+#list{
+    display:flex;
+   /* background-color: rgb(234, 240, 161);*/
+    list-style: none;
+}
+li{
+    color: rgb(83, 82, 82);
+    font-weight: 500;
+    font-family: sans-serif;
+    font-size: 13px;
+    margin-top: 40px;
+    margin-right:40px;
+   /* background-color: rgb(43, 81, 129);*/
+}
+#mid{
+    display:flex;
+}
+#one{
+    font-family: sans-serif;
+    margin:100px
+}
+h1{
+    font-size:50px;
+    line-height: 40px;
+}
+h4{
+    font-weight: 50px;
+    letter-spacing: 2PX;
+    font-size:12px ;
+    margin-top: 10px;
+}
+#two{
+    width:30px;
+    height:300px;
+    background-color: rgba(255, 250, 203, 0.295);
+    margin-left: 110px;
+    margin-right:10px;
+    margin-top: 110px;
+}
+#three{
+    width:180px;
+    height:300px;
+    background-color: rgba(255, 250, 203, 0.295);
+    margin-right:10px;
+    margin-top: 70px;
+}   
+#four{
+    width:30px;
+    height:300px;
+    background-color: rgba(255, 250, 203, 0.295);
+    margin-top: 30px;
+} 
+
+#footer{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 20px;
+}  
+#footer button{
+    background-color: transparent;
+    outline:none;
+    border-style: none;
+}
+
+#play{
+    display:flex;
+}
+#play button{
+    font-size: 15px; 
+    margin-left: 15px; 
+
+}
+p{
+    font-family: sans-serif;
+    margin-top:5px;
+    margin-left: 7px;
+    font-size: 8px;
+}
+#fb{
+    margin-right: 10px;
+}
+#fb button{
+    margin-right: 30px;
+    font-size: 15px;
+    
+}
